@@ -1,0 +1,9 @@
+steps:
+  - name: bash
+    args:
+      - echo
+      - Hello World!
+  - name: bash
+    args:
+      - sleep
+      - 20s
