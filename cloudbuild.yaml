@@ -2,8 +2,10 @@ steps:
   - name: bash
     args:
       - echo
-      - Hello World!
+      - ${_KEY}!
   - name: bash
     args:
       - sleep
       - 20s
+substitutions:
+  _KEY: cloudbuild.yaml
