@@ -9,3 +9,4 @@ steps:
       - 20s
 substitutions:
   _KEY: cloudbuild.yaml
+  REPO_NAME: asd
