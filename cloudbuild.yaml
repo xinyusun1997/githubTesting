@@ -1,0 +1,12 @@
+steps:
+  - name: bash
+    args:
+      - echo
+      - ${_KEY}!
+  - name: bash
+    args:
+      - sleep
+      - 20s
+substitutions:
+  _KEY: cloudbuild.yaml
+  REPO_NAME: asd
